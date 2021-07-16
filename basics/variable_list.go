@@ -9,5 +9,6 @@ func main() {
 func var_list() {
 	// string
 	var nameOne string = "Hi.. this is a string"
-	fmt.Println(nameOne)
+	var nameTwo string = "Mario"
+	fmt.Println(nameOne, nameTwo)
 }
