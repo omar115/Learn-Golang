@@ -27,8 +27,19 @@ and some general F/Q
 * any other package without main is called reusable package
 - defines a package that can be used as a dependency (helper code)
 
+* func is short form of function
+- works as a traditional function
+
 1. How to run the code?
 ans: go run main.go
 
-2. what does package main mean ?
-ans: 
+2. What is fmt mean?
+- it means give my package name access to all of the code, all of the functionality,
+  that is contained in other package called fmt
+- it is inside the Go programming language by default
+- fmt == format
+
+3. how did main.go file organize?
+- 1. package declaration
+- 2. import required packages
+- 3. declare function and tell to do things
