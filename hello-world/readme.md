@@ -30,12 +30,18 @@ and some general F/Q
 * func is short form of function
 - works as a traditional function
 
+* main function will automically called
+- when you run the program,
+    - if there is main function,
+    - it will automically called
+
 1. How to run the code?
 ans: go run main.go
 
 2. What is fmt mean?
-- it means give my package name access to all of the code, all of the functionality,
-  that is contained in other package called fmt
+- it means give my package name access to all of the code, 
+    - all of the functionality,
+    -  that is contained in other package called fmt
 - it is inside the Go programming language by default
 - fmt == format
 
