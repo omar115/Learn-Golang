@@ -7,3 +7,7 @@
 - slice length is not fixed
 - slice must be same data type ***
 - array can be different data type ***
+
+* it is similar concept of list and tuple in python
+- list size can be extended similar to slice
+- tuple lenght is fixed similar to array in golang
