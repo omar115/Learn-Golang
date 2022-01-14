@@ -11,3 +11,6 @@
 * it is similar concept of list and tuple in python
 - list size can be extended similar to slice
 - tuple lenght is fixed similar to array in golang
+
+* slices are zero index
+    - means the first index value is 0
