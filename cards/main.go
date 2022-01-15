@@ -6,5 +6,5 @@ func main() {
 	hand.print()
 	remainingCards.print()
 	// cards.print()
-	deal(cards, 5)
+	// deal(cards, 5)
 }
