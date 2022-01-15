@@ -14,3 +14,6 @@
 
 * slices are zero index
     - means the first index value is 0
+
+* array is similar to tuple in python
+- array size is fixed and can not be changed
