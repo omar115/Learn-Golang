@@ -6,3 +6,11 @@
 colors := make(map[string]string)
 - it will create an empty map
 - the value will be zero
+
+# difference between struct and map
+- map: all keys and values will be same type
+- struct: all values can be different type
+- in map, all keys are indexed
+- in struct all keys are not indexed
+- map is reference type
+- struct is value type

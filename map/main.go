@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	// declare a map
@@ -8,5 +10,12 @@ func main() {
 		"red":  "#ff0000",
 		"blue": "#ff0001",
 	}
-	fmt.Println(colors)
+	// fmt.Println(colors)
+	printMap(colors)
+}
+
+func printMap(c map[string]string) {
+	for color, hex := range c {
+		fmt.Println("hex code for", color, "is >>", hex)
+	}
 }
