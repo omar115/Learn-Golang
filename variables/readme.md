@@ -1,3 +1,0 @@
-- := syntax tells we are going to assign variable and,
-    - go to understand the type by yourself
-- after initialization we can change values by only using =

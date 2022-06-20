@@ -1,5 +1,4 @@
-here i will explain the hello-world program in go.
-and some general F/Q
+# some general F/Q
 
 * some important go commands:
 - go build => compiles a bunch of go source code files
