@@ -8,6 +8,13 @@ my first repo to dive into the golang journey.
 - it is used in server side language
 - It has many features that needs to be explored and it is very efficient
 
+# Features of Golang
+- It is statically typed
+    - compiler throws an error when types are used incorrectly
+    - bugs can often caught by the compiler
+    - better performance
+- It is fast, statically typed, compiled language, interpreted language
+
 # Sections
 - This repository is divided into two sections
 - section 1 is about beginner branch
