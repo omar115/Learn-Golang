@@ -2,11 +2,10 @@ package main
 
 import "fmt"
 
-func main() {
-	card := newCard()
-	fmt.Println(card)
+func addNumbers(a int, b int) int {
+	return a + b
 }
 
-func newCard() string {
-	return "Five of Diamonds"
+func main() {
+	fmt.Println("addNumbers: ", addNumbers(2, 3))
 }
