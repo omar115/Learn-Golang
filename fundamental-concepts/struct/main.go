@@ -18,15 +18,16 @@ package main
 import "fmt"
 
 type Circle struct {
-	x      int
-	y      int
-	radius int
+	radius float64
+	area   float64
+}
+
+func (c *Circle) calcArea() {
+	c.area = 3.14 * c.radius * c.radius
 }
 
 func main() {
-	var c Circle
-	c.x = 5
-	c.y = 5
-	c.radius = 5
-	fmt.Printf("%+v \n", c)
+	c := Circle{radius: 5}
+	c.calcArea()
+	fmt.Printf("%+v\n", c)
 }
